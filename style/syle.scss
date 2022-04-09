@@ -1,0 +1,412 @@
+@use "base";
+@font-face {
+  font-family: "../font/Helvetica Now Micro";
+  src: url("../font/HelveticaNowMicro-ExtBdIta.eot");
+  src: local("../font/Helvetica Now Micro ExtBd Ita"),
+    local("../font/HelveticaNowMicro-ExtBdIta"),
+    url("../font/HelveticaNowMicro-ExtBdIta.eot?#iefix")
+      format("embedded-opentype"),
+    url("../font/HelveticaNowMicro-ExtBdIta.woff2") format("woff2"),
+    url("../font/HelveticaNowMicro-ExtBdIta.woff") format("woff"),
+    url("../font/HelveticaNowMicro-ExtBdIta.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "../font/Helvetica Now Micro";
+  src: url("../font/HelveticaNowMicro-Light.eot");
+  src: local("../font/Helvetica Now Micro Light"),
+    local("../font/HelveticaNowMicro-Light"),
+    url("../font/HelveticaNowMicro-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../font/HelveticaNowMicro-Light.woff2") format("woff2"),
+    url("../font/HelveticaNowMicro-Light.woff") format("woff"),
+    url("../font/HelveticaNowMicro-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "../font/Helvetica Now Micro";
+  src: url("../font/HelveticaNowMicro-MedIta.eot");
+  src: local("../font/Helvetica Now Micro Med Ita"),
+    local("../font/HelveticaNowMicro-MedIta"),
+    url("../font/HelveticaNowMicro-MedIta.eot?#iefix")
+      format("embedded-opentype"),
+    url("../font/HelveticaNowMicro-MedIta.woff2") format("woff2"),
+    url("../font/HelveticaNowMicro-MedIta.woff") format("woff"),
+    url("../font/HelveticaNowMicro-MedIta.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "../font/Helvetica Now Micro";
+  src: url("../font/HelveticaNowMicro-ExtLtIta.eot");
+  src: local("../font/Helvetica Now Micro ExtLt Ita"),
+    local("../font/HelveticaNowMicro-ExtLtIta"),
+    url("../font/HelveticaNowMicro-ExtLtIta.eot?#iefix")
+      format("embedded-opentype"),
+    url("../font/HelveticaNowMicro-ExtLtIta.woff2") format("woff2"),
+    url("../font/HelveticaNowMicro-ExtLtIta.woff") format("woff"),
+    url("../font/HelveticaNowMicro-ExtLtIta.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "../font/Helvetica Now Micro";
+  src: url("../font/HelveticaNowMicro-ExtraLight.eot");
+  src: local("../font/Helvetica Now Micro Extra Light"),
+    local("../font/HelveticaNowMicro-ExtraLight"),
+    url("../font/HelveticaNowMicro-ExtraLight.eot?#iefix")
+      format("embedded-opentype"),
+    url("../font/HelveticaNowMicro-ExtraLight.woff2") format("woff2"),
+    url("../font/HelveticaNowMicro-ExtraLight.woff") format("woff"),
+    url("../font/HelveticaNowMicro-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "../font/Helvetica Now Micro";
+  src: url("../font/HelveticaNowMicro-LightItalic.eot");
+  src: local("../font/Helvetica Now Micro Light Ita"),
+    local("../font/HelveticaNowMicro-LightItalic"),
+    url("../font/HelveticaNowMicro-LightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../font/HelveticaNowMicro-LightItalic.woff2") format("woff2"),
+    url("../font/HelveticaNowMicro-LightItalic.woff") format("woff"),
+    url("../font/HelveticaNowMicro-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "../font/Helvetica Now Micro";
+  src: url("../font/HelveticaNowMicro-Medium.eot");
+  src: local("../font/Helvetica Now Micro Medium"),
+    local("../font/HelveticaNowMicro-Medium"),
+    url("../font/HelveticaNowMicro-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../font/HelveticaNowMicro-Medium.woff2") format("woff2"),
+    url("../font/HelveticaNowMicro-Medium.woff") format("woff"),
+    url("../font/HelveticaNowMicro-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "../font/Helvetica Now Micro";
+  src: url("../font/HelveticaNowMicro-RegIta.eot");
+  src: local("../font/Helvetica Now Micro Reg Ita"),
+    local("../font/HelveticaNowMicro-RegIta"),
+    url("../font/HelveticaNowMicro-RegIta.eot?#iefix")
+      format("embedded-opentype"),
+    url("../font/HelveticaNowMicro-RegIta.woff2") format("woff2"),
+    url("../font/HelveticaNowMicro-RegIta.woff") format("woff"),
+    url("../font/HelveticaNowMicro-RegIta.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "../font/Helvetica Now Micro";
+  src: url("../font/HelveticaNowMicro-BoldItalic.eot");
+  src: local("../font/Helvetica Now Micro Bold Italic"),
+    local("../font/HelveticaNowMicro-BoldItalic"),
+    url("../font/HelveticaNowMicro-BoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../font/HelveticaNowMicro-BoldItalic.woff2") format("woff2"),
+    url("../font/HelveticaNowMicro-BoldItalic.woff") format("woff"),
+    url("../font/HelveticaNowMicro-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "../font/Helvetica Now Micro";
+  src: url("../font/HelveticaNowMicro-Bold.eot");
+  src: local("../font/Helvetica Now Micro Bold"),
+    local("../font/HelveticaNowMicro-Bold"),
+    url("../font/HelveticaNowMicro-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../font/HelveticaNowMicro-Bold.woff2") format("woff2"),
+    url("../font/HelveticaNowMicro-Bold.woff") format("woff"),
+    url("../font/HelveticaNowMicro-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "../font/Helvetica Now Micro";
+  src: url("../font/HelveticaNowMicro-Regular.eot");
+  src: local("../font/Helvetica Now Micro Regular"),
+    local("../font/HelveticaNowMicro-Regular"),
+    url("../font/HelveticaNowMicro-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../font/HelveticaNowMicro-Regular.woff2") format("woff2"),
+    url("../font/HelveticaNowMicro-Regular.woff") format("woff"),
+    url("../font/HelveticaNowMicro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "../font/Helvetica Now Micro";
+  src: url("../font/HelveticaNowMicro-ExtraBold.eot");
+  src: local("../font/Helvetica Now Micro Extra Bold"),
+    local("../font/HelveticaNowMicro-ExtraBold"),
+    url("../font/HelveticaNowMicro-ExtraBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../font/HelveticaNowMicro-ExtraBold.woff2") format("woff2"),
+    url("../font/HelveticaNowMicro-ExtraBold.woff") format("woff"),
+    url("../font/HelveticaNowMicro-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+$baseFont: "../font/Helvetica Now Micro";
+
+html {
+  background-color: base.$bgcolor;
+  font-family: $baseFont;
+  font-weight: 300;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+h2,
+h3 {
+  font-family: base.$headerFont, sans-serif;
+}
+a {
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: base.$maxWidth;
+  margin: 0 auto;
+  ul {
+    display: flex;
+    list-style-type: none;
+    li {
+      padding-right: 3rem;
+      a {
+        text-decoration: none;
+        font-weight: 300;
+        color: base.$headerColor;
+      }
+      &:last-child {
+        padding-right: 0rem;
+      }
+    }
+  }
+}
+
+section {
+  max-width: base.$maxWidth;
+  margin: 0 auto;
+}
+
+#intro {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  div {
+    max-width: 40rem;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    p {
+      font-weight: 100;
+      font-size: 0.9rem;
+      line-height: 1.5;
+      color: base.$headerColor;
+      margin-bottom: 2rem;
+    }
+    h2 {
+      font-size: 3rem;
+      margin-bottom: 0;
+    }
+    a {
+      color: white;
+      background-color: base.$boxColor;
+      padding: 1rem 2rem;
+      font-weight: 400;
+      transition: 400ms;
+    }
+    a:hover {
+      background-color: white;
+      color: base.$boxColor;
+      border: 1px solid base.$boxColor;
+    }
+  }
+
+  object {
+    width: 50rem;
+    margin: 0 auto;
+  }
+}
+
+#track {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10rem auto;
+  input {
+    background-color: transparent;
+    border: none;
+    font-size: 0.75rem;
+  }
+  button {
+    color: white;
+    padding: 0.75rem 1rem;
+    background-color: base.$boxColor;
+    margin: 0.25em;
+    border: none;
+  }
+  form {
+    border: 1px solid base.$boxColor;
+    display: flex;
+    justify-content: space-between;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  div {
+    flex-basis: 35%;
+  }
+}
+#solution {
+  background-color: base.$solutionColor;
+  text-align: center;
+  section {
+    padding: 3rem 0;
+    h2 {
+      margin: 5rem;
+    }
+    p {
+      font-weight: 400;
+      font-size: 0.75rem;
+    }
+    figure {
+      padding: 0.5rem 2rem;
+      width: 11rem;
+      margin: 0;
+    }
+    .data {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      .pcc {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        div {
+          display: flex;
+        }
+        figure:not(:first-child) {
+          border-left: 1px solid base.$headerColor;
+        }
+      }
+      & > div {
+        border: 1.5px solid base.$boxColor;
+      }
+    }
+    .ps {
+      max-width: 65rem;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      p {
+        border: 1px solid base.$boxColor;
+        min-width: 13.5rem;
+        padding: 1rem;
+      }
+    }
+  }
+}
+
+#career {
+  text-align: center;
+  padding: 5rem 0;
+  div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  img {
+    object-fit: scale-down;
+    flex-basis: 26%;
+    width: 100%;
+  }
+}
+
+#about {
+  padding: 5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+  p {
+    max-width: 30rem;
+    font-size: 1rem;
+    line-height: 1.25;
+  }
+  small {
+    font-weight: 100;
+  }
+}
+
+.shipNow {
+  text-align: center;
+  background-color: base.$solutionColor;
+  padding: 5rem 0;
+  h2 {
+    max-width: 40rem;
+    font-size: 2rem;
+    line-height: 1.25;
+    margin: 0 auto;
+    padding: 5rem 0 2rem;
+  }
+  a {
+    background-color: base.$boxColor;
+    color: white;
+    padding: 0.75rem 1rem;
+  }
+}
+
+object.animate {
+  #map1 {
+    position: relative;
+    top: 344px;
+  }
+
+  #svg_first {
+    animation: mapAnimate 2s linear forwards infinite;
+  }
+  #map {
+    position: relative;
+    animation: mapAnimate 2s linear forwards infinite;
+    fill: orange;
+  }
+
+  @keyframes mapAnimate {
+    0% {
+      left: 0;
+    }
+    50% {
+      left: 50px;
+    }
+    100% {
+      left: 0;
+    }
+  }
+}
