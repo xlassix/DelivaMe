@@ -1,0 +1,338 @@
+@font-face {
+  font-family: "../font/Helvetica Now Micro";
+  src: url("../font/HelveticaNowMicro-ExtBdIta.eot");
+  src: local("../font/Helvetica Now Micro ExtBd Ita"), local("../font/HelveticaNowMicro-ExtBdIta"), url("../font/HelveticaNowMicro-ExtBdIta.eot?#iefix") format("embedded-opentype"), url("../font/HelveticaNowMicro-ExtBdIta.woff2") format("woff2"), url("../font/HelveticaNowMicro-ExtBdIta.woff") format("woff"), url("../font/HelveticaNowMicro-ExtBdIta.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: "../font/Helvetica Now Micro";
+  src: url("../font/HelveticaNowMicro-Light.eot");
+  src: local("../font/Helvetica Now Micro Light"), local("../font/HelveticaNowMicro-Light"), url("../font/HelveticaNowMicro-Light.eot?#iefix") format("embedded-opentype"), url("../font/HelveticaNowMicro-Light.woff2") format("woff2"), url("../font/HelveticaNowMicro-Light.woff") format("woff"), url("../font/HelveticaNowMicro-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "../font/Helvetica Now Micro";
+  src: url("../font/HelveticaNowMicro-MedIta.eot");
+  src: local("../font/Helvetica Now Micro Med Ita"), local("../font/HelveticaNowMicro-MedIta"), url("../font/HelveticaNowMicro-MedIta.eot?#iefix") format("embedded-opentype"), url("../font/HelveticaNowMicro-MedIta.woff2") format("woff2"), url("../font/HelveticaNowMicro-MedIta.woff") format("woff"), url("../font/HelveticaNowMicro-MedIta.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "../font/Helvetica Now Micro";
+  src: url("../font/HelveticaNowMicro-ExtLtIta.eot");
+  src: local("../font/Helvetica Now Micro ExtLt Ita"), local("../font/HelveticaNowMicro-ExtLtIta"), url("../font/HelveticaNowMicro-ExtLtIta.eot?#iefix") format("embedded-opentype"), url("../font/HelveticaNowMicro-ExtLtIta.woff2") format("woff2"), url("../font/HelveticaNowMicro-ExtLtIta.woff") format("woff"), url("../font/HelveticaNowMicro-ExtLtIta.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "../font/Helvetica Now Micro";
+  src: url("../font/HelveticaNowMicro-ExtraLight.eot");
+  src: local("../font/Helvetica Now Micro Extra Light"), local("../font/HelveticaNowMicro-ExtraLight"), url("../font/HelveticaNowMicro-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../font/HelveticaNowMicro-ExtraLight.woff2") format("woff2"), url("../font/HelveticaNowMicro-ExtraLight.woff") format("woff"), url("../font/HelveticaNowMicro-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "../font/Helvetica Now Micro";
+  src: url("../font/HelveticaNowMicro-LightItalic.eot");
+  src: local("../font/Helvetica Now Micro Light Ita"), local("../font/HelveticaNowMicro-LightItalic"), url("../font/HelveticaNowMicro-LightItalic.eot?#iefix") format("embedded-opentype"), url("../font/HelveticaNowMicro-LightItalic.woff2") format("woff2"), url("../font/HelveticaNowMicro-LightItalic.woff") format("woff"), url("../font/HelveticaNowMicro-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "../font/Helvetica Now Micro";
+  src: url("../font/HelveticaNowMicro-Medium.eot");
+  src: local("../font/Helvetica Now Micro Medium"), local("../font/HelveticaNowMicro-Medium"), url("../font/HelveticaNowMicro-Medium.eot?#iefix") format("embedded-opentype"), url("../font/HelveticaNowMicro-Medium.woff2") format("woff2"), url("../font/HelveticaNowMicro-Medium.woff") format("woff"), url("../font/HelveticaNowMicro-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "../font/Helvetica Now Micro";
+  src: url("../font/HelveticaNowMicro-RegIta.eot");
+  src: local("../font/Helvetica Now Micro Reg Ita"), local("../font/HelveticaNowMicro-RegIta"), url("../font/HelveticaNowMicro-RegIta.eot?#iefix") format("embedded-opentype"), url("../font/HelveticaNowMicro-RegIta.woff2") format("woff2"), url("../font/HelveticaNowMicro-RegIta.woff") format("woff"), url("../font/HelveticaNowMicro-RegIta.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "../font/Helvetica Now Micro";
+  src: url("../font/HelveticaNowMicro-BoldItalic.eot");
+  src: local("../font/Helvetica Now Micro Bold Italic"), local("../font/HelveticaNowMicro-BoldItalic"), url("../font/HelveticaNowMicro-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../font/HelveticaNowMicro-BoldItalic.woff2") format("woff2"), url("../font/HelveticaNowMicro-BoldItalic.woff") format("woff"), url("../font/HelveticaNowMicro-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "../font/Helvetica Now Micro";
+  src: url("../font/HelveticaNowMicro-Bold.eot");
+  src: local("../font/Helvetica Now Micro Bold"), local("../font/HelveticaNowMicro-Bold"), url("../font/HelveticaNowMicro-Bold.eot?#iefix") format("embedded-opentype"), url("../font/HelveticaNowMicro-Bold.woff2") format("woff2"), url("../font/HelveticaNowMicro-Bold.woff") format("woff"), url("../font/HelveticaNowMicro-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "../font/Helvetica Now Micro";
+  src: url("../font/HelveticaNowMicro-Regular.eot");
+  src: local("../font/Helvetica Now Micro Regular"), local("../font/HelveticaNowMicro-Regular"), url("../font/HelveticaNowMicro-Regular.eot?#iefix") format("embedded-opentype"), url("../font/HelveticaNowMicro-Regular.woff2") format("woff2"), url("../font/HelveticaNowMicro-Regular.woff") format("woff"), url("../font/HelveticaNowMicro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "../font/Helvetica Now Micro";
+  src: url("../font/HelveticaNowMicro-ExtraBold.eot");
+  src: local("../font/Helvetica Now Micro Extra Bold"), local("../font/HelveticaNowMicro-ExtraBold"), url("../font/HelveticaNowMicro-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../font/HelveticaNowMicro-ExtraBold.woff2") format("woff2"), url("../font/HelveticaNowMicro-ExtraBold.woff") format("woff"), url("../font/HelveticaNowMicro-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+html {
+  background-color: #FBEDE6;
+  font-family: "../font/Helvetica Now Micro";
+  font-weight: 300;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h2,
+h3 {
+  font-family: "Philosopher", sans-serif;
+}
+
+a {
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+nav ul li {
+  padding-right: 3rem;
+}
+nav ul li a {
+  text-decoration: none;
+  font-weight: 300;
+  color: #575757;
+}
+nav ul li:last-child {
+  padding-right: 0rem;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#intro {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+#intro div {
+  max-width: 40rem;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+#intro div p {
+  font-weight: 100;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #575757;
+  margin-bottom: 2rem;
+}
+#intro div h2 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+#intro div a {
+  color: white;
+  background-color: #121212;
+  padding: 1rem 2rem;
+  font-weight: 400;
+  transition: 400ms;
+}
+#intro div a:hover {
+  background-color: white;
+  color: #121212;
+  border: 1px solid #121212;
+}
+#intro object {
+  width: 50rem;
+  margin: 0 auto;
+}
+
+#track {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10rem auto;
+}
+#track input {
+  background-color: transparent;
+  border: none;
+  font-size: 0.75rem;
+}
+#track button {
+  color: white;
+  padding: 0.75rem 1rem;
+  background-color: #121212;
+  margin: 0.25em;
+  border: none;
+}
+#track form {
+  border: 1px solid #121212;
+  display: flex;
+  justify-content: space-between;
+}
+#track h2 {
+  font-size: 2rem;
+}
+#track div {
+  flex-basis: 35%;
+}
+
+#solution {
+  background-color: #F7E2ED;
+  text-align: center;
+}
+#solution section {
+  padding: 3rem 0;
+}
+#solution section h2 {
+  margin: 5rem;
+}
+#solution section p {
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+#solution section figure {
+  padding: 0.5rem 2rem;
+  width: 11rem;
+  margin: 0;
+}
+#solution section .data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+#solution section .data .pcc {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+#solution section .data .pcc div {
+  display: flex;
+}
+#solution section .data .pcc figure:not(:first-child) {
+  border-left: 1px solid #575757;
+}
+#solution section .data > div {
+  border: 1.5px solid #121212;
+}
+#solution section .ps {
+  max-width: 65rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+#solution section .ps p {
+  border: 1px solid #121212;
+  min-width: 13.5rem;
+  padding: 1rem;
+}
+
+#career {
+  text-align: center;
+  padding: 5rem 0;
+}
+#career div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+#career img {
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+  flex-basis: 26%;
+  width: 100%;
+}
+
+#about {
+  padding: 5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+}
+#about p {
+  max-width: 30rem;
+  font-size: 1rem;
+  line-height: 1.25;
+}
+#about small {
+  font-weight: 100;
+}
+
+.shipNow {
+  text-align: center;
+  background-color: #F7E2ED;
+  padding: 5rem 0;
+}
+.shipNow h2 {
+  max-width: 40rem;
+  font-size: 2rem;
+  line-height: 1.25;
+  margin: 0 auto;
+  padding: 5rem 0 2rem;
+}
+.shipNow a {
+  background-color: #121212;
+  color: white;
+  padding: 0.75rem 1rem;
+}
+
+object.animate #map1 {
+  position: relative;
+  top: 344px;
+}
+object.animate #svg_first {
+  -webkit-animation: mapAnimate 2s linear forwards infinite;
+          animation: mapAnimate 2s linear forwards infinite;
+}
+object.animate #map {
+  position: relative;
+  -webkit-animation: mapAnimate 2s linear forwards infinite;
+          animation: mapAnimate 2s linear forwards infinite;
+  fill: orange;
+}
+@-webkit-keyframes mapAnimate {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 50px;
+  }
+  100% {
+    left: 0;
+  }
+}
+@keyframes mapAnimate {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 50px;
+  }
+  100% {
+    left: 0;
+  }
+}/*# sourceMappingURL=syle.css.map */
