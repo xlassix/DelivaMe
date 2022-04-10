@@ -424,9 +424,9 @@ object.animate {
   }
   #solution {
     section {
-      .ps{
-       display: block;
-       padding: 1rem;
+      .ps {
+        display: block;
+        padding: 1rem;
       }
       figure {
         min-width: 5rem;
@@ -437,17 +437,17 @@ object.animate {
       flex-direction: column;
     }
   }
-  #about{
+  #about {
     justify-content: center;
-    gap:4rem;
+    gap: 4rem;
   }
-  #career img{
+  #career img {
     flex-basis: 46%;
   }
 }
 
 @media (max-width: 700px) {
-  nav ul{
+  nav ul {
     display: none;
   }
 }
