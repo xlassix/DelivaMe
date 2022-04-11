@@ -165,7 +165,8 @@ section {
   border: 1px solid #121212;
 }
 #intro object {
-  width: 50rem;
+  max-width: 50rem;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -215,7 +216,7 @@ section {
 }
 #solution section figure {
   padding: 0.5rem 2rem;
-  width: 11rem;
+  min-width: 11rem;
   margin: 0;
 }
 #solution section .data {
@@ -334,5 +335,42 @@ object.animate #map {
   }
   100% {
     left: 0;
+  }
+}
+
+@media (max-width: 960px) {
+  #track {
+    display: block;
+    padding: 0 1rem;
+  }
+  #track img {
+    padding-top: 2rem;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #solution section .ps {
+    display: block;
+    padding: 1rem;
+  }
+  #solution section figure {
+    min-width: 5rem;
+  }
+  #solution .data {
+    flex-direction: column;
+  }
+
+  #about {
+    justify-content: center;
+    gap: 4rem;
+  }
+
+  #career img {
+    flex-basis: 46%;
+  }
+}
+@media (max-width: 700px) {
+  nav ul {
+    display: none;
   }
 }/*# sourceMappingURL=syle.css.map */
