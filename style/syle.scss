@@ -375,8 +375,13 @@ section {
     font-size: 2rem;
     line-height: 1.25;
     margin: 0 auto;
+    padding: 0;
+  }
+
+  & > div {
     padding: 5rem 0 2rem;
   }
+
   a {
     background-color: base.$boxColor;
     color: white;
@@ -449,5 +454,8 @@ object.animate {
 @media (max-width: 700px) {
   nav ul {
     display: none;
+  }
+  .shipNow h2 {
+    display: inline;
   }
 }
