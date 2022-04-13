@@ -293,6 +293,9 @@ section {
   font-size: 2rem;
   line-height: 1.25;
   margin: 0 auto;
+  padding: 0;
+}
+.shipNow > div {
   padding: 5rem 0 2rem;
 }
 .shipNow a {
@@ -372,5 +375,9 @@ object.animate #map {
 @media (max-width: 700px) {
   nav ul {
     display: none;
+  }
+
+  .shipNow h2 {
+    display: inline;
   }
 }/*# sourceMappingURL=syle.css.map */
