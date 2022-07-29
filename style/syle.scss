@@ -255,6 +255,20 @@ section {
   }
 }
 
+.bounce {
+  animation: bounce 2.2s infinite ease-in-out alternate;
+}
+
+
+@keyframes bounce {
+  0% {
+       transform:  translateY(0); }
+  45% { transform:  translateY(1rem); }
+  55% { transform:  translateY(1rem); }
+  95% {
+    transform:  translateY(0); }
+}
+
 #track {
   display: flex;
   justify-content: space-between;
